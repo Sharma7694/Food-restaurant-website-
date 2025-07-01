@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="food.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <!-- Home Section -->
+      <section class="home_page" id="home">
+        <nav id="navbar">
+          <input type="checkbox" id="click" />
+          <div class="btn_one">
+            <label for="click" id="check1">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+          <div id="nav-wrapper">
+            <div class="logo">
+              <h1>Food Lover</h1>
+            </div>
+            <ul id="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu_section">Menu</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <button id="nav_button">
+                  <a href="#menu_section">My Order</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="first_page">
+          <div id="main-content">
+            <h1>Welcome to my <span>Masala House</span></h1>
+            <p>
+              It's not just food, it's an experience<br />Come eat, enjoy the
+              true taste of food
+            </p>
+            <button class="btn">
+              <a href="#menu_section">Book My Order</a>
+            </button>
+          </div>
+          <ul class="slideshow">
+            <li><span class="img-bg-slide"></span></li>
+            <li><span class="img-bg-slide"></span></li>
+            <li><span class="img-bg-slide"></span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about_page" id="about">
+        <div id="about_img">
+          <img
+            src="https://www.restaurantsofmanchester.com/photos/british/peakyblinders-food400.jpg"
+            alt="About our Restaurant"
+          />
+        </div>
+        <div class="about_content">
+          <h1 id="about_heading1">About our Restaurant</h1>
+          <h2 id="about_heading2">100+</h2>
+          <span id="about_heading3">Our Delicious Food</span>
+          <p id="about_para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            consequatur sit voluptatibus ullam, aut nam assumenda libero. Dolore
+            sapiente unde laboriosam aut harum deserunt quibusdam ab eius.
+          </p>
+          <button class="btn" id="about_button">
+            <a href="#menu_section">Explore Menu</a>
+          </button>
+        </div>
+      </section>
+
+      <!-- Menu Section -->
+      <section class="menu_page" id="menu_section">
+        <h1 id="menu_heading">Explore Menu</h1>
+        <nav id="navbar2">
+          <ul id="menu2">
+            <li><a href="#" data-category="all" class="active">All</a></li>
+            <li><a href="#" data-category="biryani">Biryani</a></li>
+            <li><a href="#" data-category="chicken">Chicken</a></li>
+            <li><a href="#" data-category="pizza">Pizza</a></li>
+            <li><a href="#" data-category="burger">Burger</a></li>
+            <li><a href="#" data-category="pasta">Pasta</a></li>
+          </ul>
+        </nav>
+
+        <div class="main_container">
+          <!-- Biryani Items -->
+          <div class="card_container" data-category="biryani">
+            <div class="card">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/031/280/608/small_2x/indian-biryani-with-chicken-and-vegetables-ai-generated-free-photo.jpg"
+                alt="Chicken Biryani"
+                class="card_image"
+              />
+              <p class="card_hover">Indian & Spicy</p>
+              <h2 class="card_hover">Chicken Biryani</h2>
+              <span class="card_hover">$25.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <div class="card_container" data-category="biryani">
+            <div class="card">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/033/775/519/small_2x/indian-biryani-indian-food-indian-food-indian-food-ind-ai-generated-photo.jpg"
+                alt="Mutton Biryani"
+                class="card_image"
+              />
+              <p class="card_hover">Indian & Aromatic</p>
+              <h2 class="card_hover">Mutton Biryani</h2>
+              <span class="card_hover">$28.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <!-- Chicken Items -->
+          <div class="card_container" data-category="chicken">
+            <div class="card">
+              <img
+                src="https://images6.alphacoders.com/439/thumb-1920-439410.jpg"
+                alt="Grilled Chicken"
+                class="card_image"
+              />
+              <p class="card_hover">Grilled & Fresh</p>
+              <h2 class="card_hover">Grilled Chicken</h2>
+              <span class="card_hover">$22.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <div class="card_container" data-category="chicken">
+            <div class="card">
+              <img
+                src="https://tse1.mm.bing.net/th/id/OIP.jGAE-WbrE6ZQoBK20i-uxwHaE7?r=0&w=509&h=339&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Chicken Tikka"
+                class="card_image"
+              />
+              <p class="card_hover">Indian & Spicy</p>
+              <h2 class="card_hover">Chicken Tikka</h2>
+              <span class="card_hover">$24.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <!-- Pizza Items -->
+          <div class="card_container" data-category="pizza">
+            <div class="card">
+              <img
+                src="https://th.bing.com/th/id/R.fd048601910e87d09c670b696ed153a0?rik=MCuRFnBGgWZPjA&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f7300000%2fSlice-of-Pizza-pizza-7383219-1600-1200.jpg&ehk=Nr%2f8Tpc4Z3p5bgSOdOEWHlN1XJS1y7jol5%2bkS6qXCpE%3d&risl=&pid=ImgRaw&r=0"
+                alt="Margherita Pizza"
+                class="card_image"
+              />
+              <p class="card_hover">Italian & Cheesy</p>
+              <h2 class="card_hover">Margherita Pizza</h2>
+              <span class="card_hover">$18.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <div class="card_container" data-category="pizza">
+            <div class="card">
+              <img
+                src="https://th.bing.com/th/id/R.9bf95421aaa1832fef789cdc5491d89a?rik=A9JPupxm62lj%2fg&riu=http%3a%2f%2ffreehotpizza.com%2fwp-content%2fuploads%2f2019%2f04%2fframe-square-01.jpg&ehk=BdklXr88kJ8bt6IftTM1HJ%2bRRTwvMjMqfuB%2fymjJ22w%3d&risl=&pid=ImgRaw&r=0"
+                alt="Pepperoni Pizza"
+                class="card_image"
+              />
+              <p class="card_hover">Italian & Spicy</p>
+              <h2 class="card_hover">Pepperoni Pizza</h2>
+              <span class="card_hover">$21.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <!-- Burger Items -->
+          <div class="card_container" data-category="burger">
+            <div class="card">
+              <img
+                src="https://wallpaperaccess.com/full/1312802.jpg"
+                alt="Beef Burger"
+                class="card_image"
+              />
+              <p class="card_hover">American & Juicy</p>
+              <h2 class="card_hover">Beef Burger</h2>
+              <span class="card_hover">$15.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <div class="card_container" data-category="burger">
+            <div class="card">
+              <img
+                src="https://tse2.mm.bing.net/th/id/OIP.IwOZlp1_pXcOCss7KtLNbAHaHa?r=0&w=626&h=626&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Chicken Burger"
+                class="card_image"
+              />
+              <p class="card_hover">American & Crispy</p>
+              <h2 class="card_hover">Chicken Burger</h2>
+              <span class="card_hover">$13.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <!-- Pasta Items -->
+          <div class="card_container" data-category="pasta">
+            <div class="card">
+              <img
+                src="https://tse3.mm.bing.net/th/id/OIP.f5PXQ16uXUQDjyOoB6Q8qwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Pasta Alfredo"
+                class="card_image"
+              />
+              <p class="card_hover">Italian & Creamy</p>
+              <h2 class="card_hover">Pasta Alfredo</h2>
+              <span class="card_hover">$20.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+
+          <div class="card_container" data-category="pasta">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/premium-photo/bowl-penne-pasta-with-tomato-sauce-basil-wooden-table_859451-294.jpg"
+                alt="Spaghetti Bolognese"
+                class="card_image"
+              />
+              <p class="card_hover">Italian & Rich</p>
+              <h2 class="card_hover">Spaghetti Bolognese</h2>
+              <span class="card_hover">$19.00</span>
+              <button class="card_hover"><a href="#">Order Now</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="service" id="services">
+        <h1 id="service_heading">How It Works</h1>
+        <div class="service_cards_container">
+          <div class="service_card">
+            <div class="service_content">
+              <i class="fa-regular fa-clock"></i>
+              <h2>Easy Order</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                sunt labore veniam debitis, perferendis provident!
+              </p>
+            </div>
+          </div>
+          <div class="service_card">
+            <div class="service_content">
+              <i class="fa-solid fa-trophy"></i>
+              <h2>Best Quality</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                sunt labore veniam debitis, perferendis provident!
+              </p>
+            </div>
+          </div>
+          <div class="service_card">
+            <div class="service_content">
+              <i class="fa-regular fa-circle-check"></i>
+              <h2>Fast Delivery</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                sunt labore veniam debitis, perferendis provident!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h1 id="con_heading">Contact Form</h1>
+        <div class="contact_container">
+          <div class="contact_form">
+            <h2>Contact Us</h2>
+            <form>
+              <label for="fullName"
+                ><i class="fa-solid fa-user"></i> Full Name:</label
+              >
+              <input type="text" id="fullName" name="fullName" required />
+              <label for="email"
+                ><i class="fa-solid fa-envelope"></i> Email:</label
+              >
+              <input type="email" id="email" name="email" required />
+              <label for="mobile"
+                ><i class="fa-solid fa-phone"></i> Contact No:</label
+              >
+              <input type="tel" id="mobile" name="mobile" required />
+              <label for="msg"
+                ><i class="fa-solid fa-comment"></i> Message:</label
+              >
+              <textarea id="msg" name="msg" rows="5" required></textarea>
+              <button type="submit" id="con_btn">Submit</button>
+            </form>
+          </div>
+          <div class="map_container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.1602802684192!2d77.39638073968018!3d28.504825075835775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks%20%7C%20Coding%20Classes!5e0!3m2!1sen!2sin!4v1702963476861!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen
+              loading="lazy"
+              title="Restaurant Location"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq_section" id="faq">
+        <h2 class="section_title">Frequently Asked Questions</h2>
+        <div class="faq_container">
+          <details class="faq_item">
+            <summary>I got wrong food what should I do?</summary>
+            <div class="faq_content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Please
+                contact our customer service immediately and we will resolve the
+                issue.
+              </p>
+            </div>
+          </details>
+          <details class="faq_item">
+            <summary>How long does delivery take?</summary>
+            <div class="faq_content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Typically delivery takes 30-45 minutes depending on your
+                location.
+              </p>
+            </div>
+          </details>
+          <details class="faq_item">
+            <summary>Do you offer vegetarian options?</summary>
+            <div class="faq_content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Yes, we
+                have a wide variety of vegetarian dishes available.
+              </p>
+            </div>
+          </details>
+          <details class="faq_item">
+            <summary>Can I cancel my order?</summary>
+            <div class="faq_content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Orders
+                can be cancelled within 5 minutes of placing the order.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="footer_container">
+          <div class="footer_about">
+            <h2 class="footer_heading">About</h2>
+            <p class="footer_para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              delectus nobis voluptas quasi numquam debitis corporis quia,
+              dolorum, alias dolorem accusantium libero.
+            </p>
+          </div>
+          <div class="footer_menu">
+            <h2 class="footer_heading">Our Menu</h2>
+            <ul class="footer_nav">
+              <li><a href="#menu_section">Biryani</a></li>
+              <li><a href="#menu_section">Chicken</a></li>
+              <li><a href="#menu_section">Pizza</a></li>
+              <li><a href="#menu_section">Burger</a></li>
+              <li><a href="#menu_section">Pasta</a></li>
+            </ul>
+          </div>
+          <div class="footer_links">
+            <h2 class="footer_heading">Quick Links</h2>
+            <ul class="footer_nav">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#menu_section">Menu</a></li>
+              <li><a href="#menu_section">Order</a></li>
+              <li><a href="#services">Services</a></li>
+            </ul>
+          </div>
+          <div class="footer_feedback">
+            <h2 class="footer_heading">Feedback</h2>
+            <ul class="footer_nav">
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Suggestions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_divider"></div>
+        <div class="footer_copyright">
+          <p>&copy; 2025 Food Lover Restaurant. All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="food1.js"></script>
+  </body>
+</html>
