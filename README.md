@@ -1,2 +1,2 @@
-# Food-restaurant-website-
-This project is food restaurant website.
+# •	Online Restaurant Website
+This project is •	Online Restaurant Website.
