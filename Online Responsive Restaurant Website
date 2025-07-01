@@ -1,11 +1,20 @@
-**Project Title:** Online Responsive Restaurant Website  
-**Technologies Used:** HTML, CSS, JavaScript  
-**Description:**  
-Developed a fully responsive and interactive restaurant website with modern UI design.  
-Features include:
-- Smooth navigation and sticky header
-- Dynamic menu filtering using JavaScript
-- Interactive FAQ accordion
-- Contact form with input validation
-- Back-to-top button and responsive mobile navigation
-- Animated transitions and accessibility support
+# 🍽️ Online Restaurant Website
+
+A responsive and modern online restaurant website built using HTML, CSS, and JavaScript. This project features a homepage, menu page, about section, and contact form with a beautiful layout suitable for restaurants, cafes, or food businesses.
+
+## 🚀 Features
+
+- 🖥️ Responsive homepage with navigation
+- 📜 Menu page with food categories and images
+- 🧑‍🍳 About page describing the restaurant
+- 📞 Contact form for customer inquiries
+- 💅 Stylish design using CSS animations and layout
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+
+## 📁 Project Structure
+
